@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+}
+
+.form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #a9a9a9;
+    border: 2px solid;
+}
+
+.name-div {
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+
+#name-field {
+    width: 100%;
+    text-align: center;
+    border: 2px solid;
+}
+
+.gender-div {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.address-div {
+    margin: 5px 0 10px 0;
+    padding-right: 10px;
+}
+
+#address-field {
+    width: 100%;
+    text-align: center;
+    border: 2px solid;
+}
+
+.dropdown-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#e-selector {
+    width: 45%;
+    background-color: white;
+    border: 2px solid;
+}
+
+#p-selector {
+    width: 45%;
+    background-color: white;
+    border: 2px solid;
+}
+
+.submit-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#submit-btn {
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+    .form {
+        width: 85%;
+    }
+}
